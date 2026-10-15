@@ -22,6 +22,10 @@ client.on("connect", () => {
 
 client.on("message", (topic, message) => {
   console.log("📥 Received:", message.toString());
+
+  const data = JSON.parse(message.toString())
+  if(data.watt > 500) console.log("tidak normal")
+    else console.log("normal")
 });
 
 client.on("error", (err) => console.error("❌ MQTT error:", err.message));

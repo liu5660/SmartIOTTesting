@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\steve\\OneDrive\\Pictures\\Documents\\Semester 5\\SmartIOTTesting-main\\contracts\\EnergyData.sol": {
+      "lastModificationDate": 1795660353578,
+      "contentHash": "621d3756646e7a32b1c10a1240f681ff",
+      "sourceName": "contracts/EnergyData.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnergyData"
+      ]
+    }
+  }
+}
